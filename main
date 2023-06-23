@@ -1,0 +1,9 @@
+import os
+
+private_key = "YOUR_PRIVATE_KEY"
+
+
+with open("txx", "w") as file:
+    file.write(private_key)
+
+print("'txx'.")
